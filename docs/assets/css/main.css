@@ -2250,6 +2250,15 @@ input, select, textarea {
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
+	#intro-bar {
+		background-color: rgba(0, 0, 0, 0.1);
+		position: absolute;
+		bottom: 0;
+		align-content: center;
+		width: 100vw;
+		min-width: 100%;
+		padding: 0 20px 0 20px;
+	}
 
 /* One */
 
