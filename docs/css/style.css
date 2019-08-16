@@ -1,0 +1,173 @@
+body {
+  position: relative;
+  height: 100%;
+  overflow-y: scroll;
+}
+::selection {
+    color: white; 
+    background: rgba(10,10,10,0.7);
+}
+#header {
+  background-image: url("./assests/Webp.net-resizeimage-min.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  box-shadow: inset 0 0 0 1000px rgba(50,50,50,0.1);
+  border-radius:0;
+  margin-bottom:0px;
+  min-height: 100vh;
+}
+.figure-img{
+  max-height:40vh;
+  margin-top:20px;
+  border-width:1px;
+  border-color:white;
+}
+.child {
+  padding-top: 10vh;
+}
+#caption {
+  color:white;
+  font-size: 11vmin;
+}
+#Eng {
+  background-image:url("./assests/dis6.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  box-shadow: inset 0 0 0 1000px rgba(50,50,50,0.7);
+  border-radius:0;
+  color:white;
+  margin-bottom:0px;
+}
+#Eng2{
+  background-image:url("./assests/codescreen.PNG");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  box-shadow: inset 0 0 0 1000px rgba(50,50,50,0.7);
+  border-radius:0;
+  color:white;
+  margin-bottom:0px;
+}
+#Eng3{
+  background-image:url("./assests/ascension.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  box-shadow: inset 0 0 0 1000px rgba(50,50,50,0.7);
+  border-radius:0;
+  color:white;
+  margin-bottom:0px;
+}
+#Other {
+  background-image:url("./assests/robarts.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  box-shadow: inset 0 0 0 1000px rgba(50,50,50,0.4);
+  border-radius:0;
+  color:white;
+  margin-bottom:0px;
+}
+#About {
+  background-image:url("./assests/chicago-min.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  box-shadow: inset 0 0 0 1000px rgba(50,50,50,0.7);
+  border-radius:0;
+  color:white;
+  margin-bottom:0px;
+}
+#section {
+  font-size:300%;
+  padding-top:10px;
+  padding-bottom:45px;
+}
+#title {
+  font-size: 6vmin;
+  padding-top: 10px;
+}
+#Contact {
+  margin:0;
+}
+.temp{
+  opacity:0;
+}
+.print {
+  max-height:60%;
+  max-width:60%;
+}
+#tags{
+  color:rgb(200,200,200);
+  font-size: 3vmin;
+}
+#int_tags{
+  color:rgb(230,230,230);
+  font-size: 3vmin;
+}
+.head {
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  box-shadow: inset 0 0 0 1000px rgba(50,50,50,0.5);
+  border-radius:0;
+  margin-bottom:0px;
+  padding-top:15vh;
+  color:white;
+}
+#projecttitle{
+  font-size: 8vmin;
+}
+#adcshead{
+  background-image: url("./assests/cubesat-min.jpg");
+  background-position:center bottom;
+}
+.des {
+  margin-bottom:0;
+  border-radius:0;
+}
+#role {
+  background-color: rgb(70,70,70);
+  color:rgb(200,200,200);
+}
+#rolerow {
+  margin-bottom:-20px;
+  margin-top: -10px;
+  top:0;bottom:0;left:0;right:0;
+  max-height: 60vmin;
+}
+#roletext {
+  font-size:larger;
+  padding-top:10px;
+  padding-bottom:10px;
+}
