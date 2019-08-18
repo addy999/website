@@ -1,0 +1,1 @@
+bash -c python3 scripts/compress_n_scale.py
