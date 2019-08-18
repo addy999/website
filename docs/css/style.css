@@ -7,8 +7,14 @@ body {
     color: white; 
     background: rgba(10,10,10,0.7);
 }
+#custom_nav {
+  background-color :  #191C22!important;
+}
+
+/* Header */
+
 #header {
-  background-image: url("./assests/Webp.net-resizeimage-min.jpg");
+  background-image: url("./assests/header_bg.jpg");
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -21,19 +27,26 @@ body {
   margin-bottom:0px;
   min-height: 100vh;
 }
-.figure-img{
-  max-height:40vh;
+#me {
+  max-height:45vh;
+  /* max-width:  */
   margin-top:20px;
+  margin-bottom:20px;
   border-width:1px;
-  border-color:white;
+  border-color:#EAE5E6;
+  background-color: #EAE5E6;
 }
+
 .child {
   padding-top: 10vh;
 }
 #caption {
-  color:white;
+  color:#EAE5E6;
   font-size: 11vmin;
 }
+
+/* Projects */
+
 #Eng {
   background-image:url("./assests/dis6.jpg");
   background-attachment: fixed;
