@@ -37,6 +37,6 @@ if __name__ == "__main__":
     dest_path = '../'
     compress(cwd + '../docs/css/assests/raw', src_path, dest_path)
     
-    # 2. Scale images
+    # 2. Scale + overwrite images
     
     resize_img(cwd+'/../', (336,366))
