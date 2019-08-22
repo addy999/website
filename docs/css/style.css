@@ -27,6 +27,11 @@ body {
   margin-bottom:0px;
   min-height: 100vh;
 }
+
+.figure {
+  animation-duration : 0.75s;
+}
+
 #me {
   max-height:45vh;
   /* max-width:  */
@@ -49,7 +54,7 @@ body {
 /* Bio */
 
 #Bio {
-  background-image:url("./assests/chicago-min.jpg");
+  background-image:url("./assests/stars_1.jpg");
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -57,7 +62,7 @@ body {
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center center;
-  box-shadow: inset 0 0 0 1000px rgba(50,50,50,0.7);
+  box-shadow: inset 0 0 0 1000px rgba(50,50,50,0.3);
   border-radius:0;
   color:white;
   margin-bottom:0px;
