@@ -38,15 +38,15 @@ body {
   margin-top:20px;
   margin-bottom:20px;
   border-width:1px;
-  border-color:#EAE5E6;
-  background-color: #EAE5E6;
+  border-color:#fdfcfc;
+  background-color: #fdfcfc;
 }
 
 .child {
   padding-top: 10vh;
 }
 #caption {
-  color:#EAE5E6;
+  color: #fdfcfc;
   font-size: 11vmin;
   padding-top: 2%;
 }
@@ -66,6 +66,12 @@ body {
   border-radius:0;
   color:white;
   margin-bottom:0px;
+}
+
+.sub-caption {
+  padding-top: 2vh;
+  font-size: 3.5vh;
+  color: rgb(203,203,203);
 }
 
 /* Portfolio */
@@ -98,15 +104,17 @@ body {
   padding-bottom:45px;
 }
 #title {
-  font-size: 6vmin;
+  /* font-size: 6vmin; */
+  font-size: 6vh;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .temp{
   opacity:0;
 }
 .print {
-  max-height:60%;
-  max-width:60%;
+  max-height:35vh;
+  /* max-width:60%; */
 }
 #tags{
   color:rgb(200,200,200);
