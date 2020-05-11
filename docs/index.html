@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="css/style.css">
 
   <script src="https://kit.fontawesome.com/63ff3f9b5e.js"></script>
-  <script src='./js/jquery-3.1.1.slim.min.js'></script>
+  <script src='./js/jquery.min.js'></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script> 
   <script src='./js/bootstrap.min.js'></script>
-  <script src='./js/jquery.min.js'></script>
   <script src="js/index.js"></script>
 </head>
 <body>
@@ -56,41 +56,55 @@
     <h4 class="display-4 text-center" id="section">About Me</h4>
     <div class="row row1">
       <div class="col-md text-center">
-        <h4 class="display-4" id="title">Student</h4>
-        <img src="./css/assests/adcs.png" class="img-fluid rounded-circle img-thumbnail print">
-        <p class="text-center sub-caption"> blah blah blah </p>
+        <!-- <h4 class="display-4" id="title">Student</h4> -->
+        <!-- <img src="./css/assests/adcs.png" class="img-fluid rounded-circle img-thumbnail print"> -->
+        <p class="text-center sub-caption">
+           A new grad from the University of Toronto in Mechanical Engineering. I've spent the last few years learning how to code and making cool tech.
+        </p>
       </div>
       <div class="col-md text-center">
-        <h4 class="display-4" id="title">Passionate</h4>
-        <img src="./css/assests/mill.jpg" class="img-fluid rounded-circle img-thumbnail print">
-        <p class="text-center sub-caption"> blah blah blah </p>
+        <!-- <h4 class="display-4" id="title">Interests</h4> -->
+        <!-- <img src="./css/assests/mill.jpg" class="img-fluid rounded-circle img-thumbnail print"> -->
+        <p class="text-center sub-caption">
+          Love working in small teams in the space and tech industry. My specialties are full-stack, cloud, and data science. If you like what I do, let's get in touch.
+        </p>
       </div>
-      <div class="col-md text-center">
+      <!-- <div class="col-md text-center">
         <h4 class="display-4" id="title">Leader</h4>
         <img src="./css/assests/Corp_General_BD_Pack-1.jpg" class="img-fluid rounded-circle img-thumbnail print">
         <p class="text-center sub-caption"> blah blah blah </p>
-      </div>
+      </div> -->
     </div> 
   </div>
 
   <!-- Portfolio -->
-
+  
   <div class="jumbotron" id="Portfolio">
     <h4 class="display-4 text-center" id="section">Portfolio</h4>
     <div class="row row2">
-      <div class="col-md text-center">
+      <!-- <div class="col-md text-center">
         <h4 class="display-4" id="title">Hardware</h4>
         <a href="./adcs.html"><img src="./css/assests/adcs.png" class="img-fluid rounded-circle img-thumbnail print"></a>
+      </div> -->
+      <div class="col-md text-center" id="soft_but">
+        <h4 class="display-4 title">Software</h4>
+        <img src="./css/assests/mill.jpg" class="img-fluid rounded-circle img-thumbnail print">
       </div>
-      <div class="col-md text-center">
-        <h4 class="display-4" id="title">Software</h4>
-        <a href="#"><img src="./css/assests/mill.jpg" class="img-fluid rounded-circle img-thumbnail print"></a>
-      </div>
-      <div class="col-md text-center">
-        <h4 class="display-4" id="title">Photography</h4>
-        <a href="#"><img src="./css/assests/Corp_General_BD_Pack-1.jpg" class="img-fluid rounded-circle img-thumbnail print"></a>
+      <div class="col-md text-center" id="photo_but">
+        <h4 class="display-4 title">Photography</h4>
+        <img src="./css/assests/Corp_General_BD_Pack-1.jpg" class="img-fluid rounded-circle img-thumbnail print">
       </div>
     </div>
+
+    <div class="row row2" id="software">
+      <div class="col-md text-center">
+        <h4 class="display-4 title">1</h4>
+        <img src="./css/assests/mill.jpg" class="img-fluid rounded-circle img-thumbnail print">
+        </div>
+    </div>
+
+
+
   </div>
   
   <!-- Contact -->
@@ -104,7 +118,9 @@
         </a>
       </div>
       <div class="col-md-4 text-center" style=padding:15px;>
-        <p> <i class="fas fa-phone fa-rotate-90"></i>  (647) 528-7436 </p>
+        <a href="https://www.github.com/addy999/" target="_blank" style=color:black;>
+          <p> <i class="fab fa-github"></i> addy999 </p>
+        </a>
       </div>
       <div class="col-md-4 text-center" style=padding:15px;>
         <a href="mailto:addy.bhatia@mail.utoronto.ca" target="_blank" style=color:black;>

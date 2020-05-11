@@ -70,8 +70,9 @@ body {
 
 .sub-caption {
   padding-top: 2vh;
-  font-size: 3.5vh;
+  font-size: 3vh;
   color: rgb(203,203,203);
+  text-align: left!important;
 }
 
 /* Portfolio */
@@ -91,6 +92,11 @@ body {
   margin-bottom:0px;
 }
 
+#photo_but {
+  /* opacity: 1; */
+  transition: all 0.5s ease;
+}
+
 /* Contact */
 #Contact {
   margin:0;
@@ -101,9 +107,9 @@ body {
 #section {
   font-size:300%;
   padding-top:10px;
-  padding-bottom:45px;
+  padding-bottom:40px;
 }
-#title {
+.title {
   /* font-size: 6vmin; */
   font-size: 6vh;
   padding-top: 10px;
@@ -141,10 +147,10 @@ body {
 #projecttitle{
   font-size: 8vmin;
 }
-#adcshead{
+/* #adcshead{
   background-image: url("./assests/cubesat-min.jpg");
   background-position:center bottom;
-}
+} */
 .des {
   margin-bottom:0;
   border-radius:0;
